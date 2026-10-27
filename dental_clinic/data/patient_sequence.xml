@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="seq_dental_patient" model="ir.sequence">
+        <field name="name">Dental Patient ID</field>
+        <field name="code">dental.patient</field>
+        <field name="prefix"></field>
+        <field name="padding">0</field>
+        <field name="number_next">1</field>
+        <field name="number_increment">1</field>
+    </record>
+</odoo>

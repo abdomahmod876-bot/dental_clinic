@@ -1,0 +1,99 @@
+.dental_patient_form {
+    .o_form_renderer {
+        flex-direction: column;
+    }
+
+    .o_form_sheet_bg,
+    .o-mail-Form-chatter {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .o_form_sheet {
+        width: 100% !important;
+        max-width: none !important;
+    }
+}
+
+.dental_patient_header {
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    min-height: 100px;
+    overflow-x: auto;
+    padding: 0 0 1rem;
+
+    .dental_patient_avatar {
+        flex: 0 0 80px;
+        height: 80px;
+        object-fit: cover;
+        width: 80px;
+    }
+
+    .dental_patient_header_item {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        gap: 0.2rem;
+        white-space: nowrap;
+    }
+
+    .dental_patient_header_name {
+        flex: 1 1 auto;
+        font-size: 1.6rem;
+        font-weight: 600;
+        min-width: 150px;
+    }
+
+    .dental_patient_inline_fields {
+        align-items: center;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .dental_patient_doctor {
+        min-width: 150px;
+    }
+}
+
+.dental_gallery_counts {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.75rem 0;
+
+    .dental_gallery_count {
+        align-items: center;
+        background: #f5f6f7;
+        border: 1px solid #dee2e6;
+        border-radius: 0.35rem;
+        display: inline-flex;
+        gap: 0.45rem;
+        padding: 0.35rem 0.65rem;
+    }
+}
+
+.dental_image_card {
+    background: #fffbe6;
+    border: 1px solid #e3d9a8;
+    border-radius: 0.35rem;
+    margin: 0.35rem;
+    overflow: hidden;
+    padding: 0.5rem;
+    width: 210px;
+
+    img {
+        height: 150px;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .dental_image_date {
+        font-size: 0.9rem;
+        padding-top: 0.45rem;
+        text-align: center;
+    }
+}

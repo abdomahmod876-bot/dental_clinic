@@ -1,0 +1,17 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dental_patient_user,dental.patient.user,model_dental_patient,group_dental_user,1,1,1,0
+access_dental_patient_manager,dental.patient.manager,model_dental_patient,group_dental_manager,1,1,1,1
+access_dental_doctor_user,dental.doctor.user,model_dental_doctor,group_dental_user,1,1,1,0
+access_dental_doctor_manager,dental.doctor.manager,model_dental_doctor,group_dental_manager,1,1,1,1
+access_dental_patient_race_user,dental.patient.race.user,model_dental_patient_race,group_dental_user,1,1,1,0
+access_dental_patient_race_manager,dental.patient.race.manager,model_dental_patient_race,group_dental_manager,1,1,1,1
+access_dental_patient_city_user,dental.patient.city.user,model_dental_patient_city,group_dental_user,1,1,1,0
+access_dental_patient_city_manager,dental.patient.city.manager,model_dental_patient_city,group_dental_manager,1,1,1,1
+access_dental_patient_xray_date_user,dental.patient.xray.date.user,model_dental_patient_xray_date,group_dental_user,1,1,1,0
+access_dental_patient_xray_date_manager,dental.patient.xray.date.manager,model_dental_patient_xray_date,group_dental_manager,1,1,1,1
+access_dental_visit_user,dental.visit.user,model_dental_visit,group_dental_user,1,1,1,0
+access_dental_visit_manager,dental.visit.manager,model_dental_visit,group_dental_manager,1,1,1,1
+access_dental_patient_image_user,dental.patient.image.user,model_dental_patient_image,group_dental_user,1,1,1,0
+access_dental_patient_image_manager,dental.patient.image.manager,model_dental_patient_image,group_dental_manager,1,1,1,1
+access_dental_visit_line_user,dental.patient.visit.line.user,model_dental_visit_line,group_dental_user,1,1,1,0
+access_dental_visit_line_manager,dental.patient.visit.line.manager,model_dental_visit_line,group_dental_manager,1,1,1,1
